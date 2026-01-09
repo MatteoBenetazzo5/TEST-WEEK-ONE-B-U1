@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Volume {
+public interface Volume {
     public void alzaVolume();
 
     public void abbassaVolume();

@@ -1,9 +1,7 @@
 package interfaces;
 
-public class Riproducibile {
-    public interface Riproducibile {
-        public void play();
+public interface Riproducibile {
+    public void play();
 
-        public int getDurata();
-    }
+    public int getDurata();
 }

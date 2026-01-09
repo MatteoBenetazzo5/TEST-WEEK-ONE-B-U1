@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Luminosita {
+public interface Luminosita {
     public void aumentaLuminosita();
 
     public void diminuisciLuminosita();
