@@ -1,5 +1,4 @@
-/*
-SCHEMA PROGETTO - PLAYER MULTIMEDIALE
+/*        SCHEMA PROGETTO
 
 INTERFACCE (interfaces):
 - Riproducibile: play + getDurata
