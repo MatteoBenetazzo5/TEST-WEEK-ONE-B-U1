@@ -15,4 +15,11 @@ public abstract class ElementoMultimediale { // abstract dato che in questo caso
     public String getTitolo() {
         return titolo;
     }
+
+    @Override
+    public String toString() {
+        return "ElementoMultimediale{" +
+                "titolo='" + titolo + '\'' +
+                '}';
+    }
 }

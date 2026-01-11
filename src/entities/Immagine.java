@@ -32,4 +32,10 @@ public class Immagine extends ElementoMultimediale implements Luminosita {
         return luminosita;
     }
 
+    @Override
+    public String toString() {
+        return "Immagine{" +
+                "luminosita=" + luminosita +
+                '}';
+    }
 }

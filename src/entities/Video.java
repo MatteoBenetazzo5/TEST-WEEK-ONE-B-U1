@@ -62,4 +62,13 @@ public class Video extends ElementoMultimediale implements Luminosita, Riproduci
     public int getVolume() {
         return volume;
     }
+
+    @Override
+    public String toString() {
+        return "Video{" +
+                "luminosita=" + luminosita +
+                ", durata=" + durata +
+                ", volume=" + volume +
+                '}';
+    }
 }

@@ -49,4 +49,12 @@ public class Audio extends ElementoMultimediale implements Riproducibile, Volume
     public int getVolume() {
         return volume;
     }
+
+    @Override
+    public String toString() {
+        return "Audio{" +
+                "durata=" + durata +
+                ", volume=" + volume +
+                '}';
+    }
 }
